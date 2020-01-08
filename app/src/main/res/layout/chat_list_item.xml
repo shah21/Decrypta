@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/layout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="6dip">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_marginRight="6dp"
+        app:civ_border_width="0.5dp"
+        app:civ_border_color="@color/lightGrey"
+        android:layout_marginEnd="6dp"
+        />
+
+    <TextView
+        android:id="@+id/name"
+        android:fontFamily="@font/amaranth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/profile_image"
+        android:layout_toEndOf="@+id/profile_image"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="10dp"
+        android:text="Jan Koum"
+        android:textSize="16sp" />
+
+
+
+    <TextView
+        android:layout_below="@id/profile_image"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorGrey"
+        android:layout_toRightOf="@id/profile_image"
+        android:layout_toEndOf="@+id/profile_image" />
+</RelativeLayout>
