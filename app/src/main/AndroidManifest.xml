@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.curiocodes.decrypta">
+
+    <uses-permission android:name="android.permission.INTERNET " />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activities.GetstartActivity" />
+        <activity
+            android:name=".Activities.SavedActivity"
+            android:parentActivityName=".Activities.MainActivity" />
+        <activity
+            android:name=".Activities.OpenPhotoActivity"
+            android:parentActivityName=".Activities.SavedActivity" />
+        <activity
+            android:name=".Activities.FullScreenActivity"
+            android:parentActivityName=".Activities.ChatRoomActivity" />
+        <activity
+            android:name=".Activities.SendFileActivity"
+            android:parentActivityName=".Activities.ChatRoomActivity" />
+        <activity android:name=".Activities.SetProfileActivity" />
+        <activity
+            android:name=".Activities.ChatRoomActivity"
+            android:parentActivityName=".Activities.MainActivity" />
+        <activity
+            android:name=".Activities.SelectContactsActivity"
+            android:parentActivityName=".Activities.ConnectionsActivity" />
+        <activity
+            android:name=".Activities.SettingsActivity"
+            android:parentActivityName=".Activities.MainActivity" />
+        <activity
+            android:name=".Activities.ConnectionsActivity"
+            android:parentActivityName=".Activities.MainActivity" />
+        <activity
+            android:name=".Activities.OtpActivity"
+            android:parentActivityName=".Activities.RegisterActivity" />
+        <activity android:name=".Activities.WelcomeActivity" />
+        <activity android:name=".Activities.RegisterActivity" />
+        <activity
+            android:name=".Activities.MainActivity"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

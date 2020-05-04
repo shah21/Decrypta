@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/OtpView"
+    tools:context=".Activities.OtpActivity">
+
+    <include layout="@layout/toolbar" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:fontFamily="@font/amaranth"
+        android:lineHeight="20dp"
+        android:textSize="16sp"
+        android:text="@string/verify_text" />
+
+
+    <EditText
+        android:id="@+id/code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:inputType="number"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:hint="Enter here" />
+
+    <TextView
+        android:id="@+id/resend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:fontFamily="@font/amaranth"
+        android:clickable="false"
+        android:lineHeight="20dp"
+        android:textSize="14sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:text="Dont work ? Send me another code." />
+
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:fontFamily="@font/amaranth"
+            android:textSize="14sp"
+            android:text="Need help ?" />
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Verify"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/btn"
+            android:textColor="@android:color/white"
+            android:layout_marginRight="20dp" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

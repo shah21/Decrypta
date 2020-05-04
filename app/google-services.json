@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "988430681521",
+    "firebase_url": "https://decrypta-bed0d.firebaseio.com",
+    "project_id": "decrypta-bed0d",
+    "storage_bucket": "decrypta-bed0d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:988430681521:android:ddd371a8ba3c07af522990",
+        "android_client_info": {
+          "package_name": "com.curiocodes.decrypta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "988430681521-hoav0520ck5r02g4d86gri8vu5694q2u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.curiocodes.decrypta",
+            "certificate_hash": "b413ca9660fa18b262d3ba828257e6d8b1e528d1"
+          }
+        },
+        {
+          "client_id": "988430681521-redhn19d983fo8qkcvr2ghvcvhvh544j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCh-m_z4WeMzRc8DkQH0Tp8ymLz00RDZeE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "988430681521-redhn19d983fo8qkcvr2ghvcvhvh544j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

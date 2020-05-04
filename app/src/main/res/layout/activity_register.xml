@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/registerView"
+    android:background="@color/colorPrimary"
+    tools:context=".Activities.RegisterActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:text="Register"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        app:fontFamily="@font/autour_one" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Which type you are ?"
+        android:textAlignment="center"
+        android:textColor="@color/secondary"
+        android:textSize="14sp"
+        app:fontFamily="@font/amaranth" />
+
+
+    <RadioGroup
+        android:id="@+id/radioGrp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/r1"
+            android:padding="5dp"
+            android:buttonTint="@android:color/white"
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:text="@string/soldier" />
+
+        <RadioButton
+            android:id="@+id/r2"
+            android:padding="5dp"
+            android:textAllCaps="true"
+            android:buttonTint="@android:color/white"
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/other" />
+
+    </RadioGroup>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:text="@string/phone" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:textColor="@android:color/white"
+        android:inputType="phone"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp" />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:text="Soldier number" />
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="Phone number of related soldier"
+        android:textColor="#757575"
+        android:textSize="12sp"
+        android:visibility="gone"
+        app:fontFamily="@font/amaranth" />
+
+
+    <EditText
+        android:visibility="gone"
+        android:id="@+id/soldierNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:inputType="phone"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp" />
+
+    <Button
+        android:id="@+id/verifyBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/btn"
+        android:text="Verify number"
+        android:padding="10dp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="30dp" />
+
+
+</LinearLayout>
