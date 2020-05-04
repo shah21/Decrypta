@@ -6,7 +6,10 @@ import androidx.core.app.NavUtils;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.view.WindowManager;
 import android.widget.GridView;
+import android.widget.ProgressBar;
 
 import com.curiocodes.decrypta.Adapters.SavedAdapter;
 import com.curiocodes.decrypta.Models.SaveModel;
@@ -27,10 +30,12 @@ public class SavedActivity extends AppCompatActivity {
     private List<SaveModel> list;
     private FirebaseFirestore db;
     private FirebaseAuth mAuth;
+    private ProgressBar progressBar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_SECURE, WindowManager.LayoutParams.FLAG_SECURE);
         setContentView(R.layout.activity_saved);
         setSupportActionBar((Toolbar)findViewById(R.id.toolbar));
         getSupportActionBar().setTitle("Saved photos");
@@ -49,6 +54,8 @@ public class SavedActivity extends AppCompatActivity {
             }
         });
 
+        progressBar = findViewById(R.id.progress);
+
         gridView = findViewById(R.id.gridView);
         gridView.setAdapter(adapter);
         db = FirebaseFirestore.getInstance();
@@ -57,6 +64,7 @@ public class SavedActivity extends AppCompatActivity {
     }
 
     private void getPhotos() {
+        progressBar.setVisibility(View.VISIBLE);
         db.collection("Users").document(mAuth.getCurrentUser().getUid())
                 .collection("Saved").get().addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
             @Override
@@ -67,6 +75,9 @@ public class SavedActivity extends AppCompatActivity {
                         list.add(saveModel);
                     }
                     adapter.notifyDataSetChanged();
+                    progressBar.setVisibility(View.INVISIBLE);
+                } else {
+                    progressBar.setVisibility(View.INVISIBLE);
                 }
             }
         });

@@ -7,6 +7,7 @@ import androidx.appcompat.widget.Toolbar;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.WindowManager;
 import android.widget.ImageView;
 
 import com.curiocodes.decrypta.AddOn.General;
@@ -20,6 +21,7 @@ import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.QuerySnapshot;
 import com.squareup.picasso.Picasso;
+import com.zolad.zoominimageview.ZoomInImageViewAttacher;
 
 import java.sql.Timestamp;
 import java.util.Date;
@@ -32,6 +34,7 @@ public class FullScreenActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_SECURE, WindowManager.LayoutParams.FLAG_SECURE);
         setContentView(R.layout.activity_full_screen);
         setSupportActionBar((Toolbar)findViewById(R.id.toolbar));
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -42,6 +45,10 @@ public class FullScreenActivity extends AppCompatActivity {
         getSupportActionBar().setTitle(name);
 
         imageView = findViewById(R.id.image);
+        //set zoomable
+        ZoomInImageViewAttacher mIvAttacter = new ZoomInImageViewAttacher();
+        mIvAttacter.attachImageView(imageView);
+
         Picasso.get().load(uri).fit().into(imageView);
     }
 

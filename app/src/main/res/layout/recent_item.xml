@@ -16,7 +16,6 @@
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_gravity="center_vertical"
-        android:src="@drawable/child_placeholder"
         app:civ_border_color="#FF000000"/>
 
     <TextView

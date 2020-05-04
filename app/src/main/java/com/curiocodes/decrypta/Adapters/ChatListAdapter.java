@@ -60,8 +60,8 @@ public class ChatListAdapter extends RecyclerView.Adapter<ChatListAdapter.ViewHo
     @Override
     public void onBindViewHolder(@NonNull ChatListAdapter.ViewHolder holder, final int position) {
         holder.mName.setText(arrayList.get(position).getName());
-        if (!arrayList.get(position).getUri().isEmpty()) {
-            Picasso.get().load(arrayList.get(position).getUri()).fit().placeholder(R.drawable.child_placeholder).into(holder.circleImageView);
+        if (arrayList.get(position).getUri() != null) {
+            Picasso.get().load(arrayList.get(position).getUri()).fit().placeholder(R.drawable.profile_placeholder).into(holder.circleImageView);
         }
         holder.layout.setOnClickListener(new View.OnClickListener() {
             @Override
