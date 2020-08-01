@@ -2,9 +2,12 @@
 
 **Version 1.0.0**
 
-Decrypta is an android app that helps soldiers to communicate each other and also chat with their families and friends . Its a dedicated commication system for people who works in nation's secuirity areas 
+Decrypta is a fully functional one-to-one messaging app that helps soldiers to communicate each other and also chat with their families and friends . Its a dedicated commication system for people who works in nation's secuirity areas . This simple app enables users to send text and multimedia messages like images . 
 
 ---
+
+# Table of content 
+
 
 1. This app created with native developement technologies ( JAVA, XML )
 2. Backend supported by firebase 
@@ -15,3 +18,14 @@ Decrypta is an android app that helps soldiers to communicate each other and als
 * This app can only give permission to registered users(soldiers) . So that first you need to add a special user number and details in database 
 * A major thing is a civilian cannot enter to this system without he/she must contain any one soldiers connections list
 
+---
+
+## Contributors
+
+- Muhsin shah <muhsinshah21@gmail.com>
+
+---
+
+## License & Copyright 
+
+@ Muhsin Shah , Curiocodes Android Developer 
