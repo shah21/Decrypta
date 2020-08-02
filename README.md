@@ -3,9 +3,9 @@
 **Version 1.0.0**
 
 <div>
-<img align="left" src="Screenshots/Welcome-screen.jpeg" width="200px" height="300px"> 
-<img align="left" src="Screenshots/login-screen.jpeg" width="200px" height="300px"> 
-<img align="left" src="Screenshots/home-screen.jpeg" width="200px" height="300px"> 
+<img align="left" src="Screenshots/Welcome-screen.jpeg" width="200px" height="400px"> 
+<img align="center" src="Screenshots/login-screen.jpeg" width="200px" height="400px"> 
+<img align="right" src="Screenshots/home-screen.jpeg" width="200px" height="400px"> 
 </div>
 
 <br>
