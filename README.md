@@ -12,17 +12,17 @@ Decrypta is a fully functional <b>one-to-one</b> messaging app that helps <b>sol
 
 # Table of content 
 
-1.[Installation](#Installation)
+1. [Installation](#Installation)
 
-2.[Running the sample app](#Running-the-sample-app)
+2. [Running the sample app](#Running-the-sample-app)
 
-3.[Technology used](#Technology-used)
+3. [Technology used](#Technology-used)
 
-4.[More about this app](#More-about-this-app)
+4. [More about this app](#More-about-this-app)
 
-5.[Contributors](#Contributors)
+5. [Contributors](#Contributors)
 
-6.[License & Copyright](#License-&-Copyright)
+6. [License & Copyright](#License-&-Copyright)
 
 ## Installation
 
