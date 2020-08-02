@@ -8,7 +8,7 @@
 
 <br>
 
-Decrypta is a fully functional <b>one-to-one</b> messaging app that helps <b>soldiers</b> to communicate each other and also chat with their families and friends . Its a dedicated commication system for people who works in <b>nation's secuirity</b> areas . This simple app enables users to send <b>text</b> and <b>multimedia</b> messages like images.
+Decrypta is a fully functional <b>one-to-one</b> messaging app that helps <b>Soldiers</b> to communicate each other and also chat with their families and friends . Its a dedicated commication system for people who works in <b>Nation's secuirity</b> areas . This simple app enables users to send <b>Text</b> and <b>Multimedia</b> messages like images.
 
 # Table of content 
 
@@ -32,7 +32,7 @@ You can download or clone repository to your PC .then <b>Import</b> or <b>Add</b
 
 ## Running the sample app
 
- * To run this app first you need migrate the project in to <b>firebase console</b> .then paste <b><i>google-service.json</i></b> file into project folder (project-name/app) 
+ * To run this app first you need migrate the project in to <b>Firebase console</b> .then paste <b><i>google-service.json</i></b> file into project folder (project-name/app) 
 after that build and run  
  * How to connect with firebase : <http://alphatech.technology/Howto-Entry-srk/Google-Services-Json-bek/>
  
