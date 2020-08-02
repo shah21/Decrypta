@@ -38,7 +38,7 @@ after that build and run
  
 **NOTE** 
 
-   * This app can only give permission to registered users(soldiers) . So that first you need to add a special user number and details in database
+   * This app can only use registered users(soldiers) . So that first you need to add that a special user number and details into database
    * On other end if you want register as civilian you need to add civilian phone number to soldier connections list
 
 ## Technology used
