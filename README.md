@@ -3,11 +3,7 @@
 **Version 1.0.0**
 
 <div>
-<img align="left" src="Screenshots/Welcome-screen.jpeg" width="180px" height="400px"> 
-<img align="left" src="Screenshots/login-screen.jpeg" width="180px" height="400px"> 
-<img align="left" src="Screenshots/home-screen.jpeg" width="180px" height="400px"> 
-<img align="left" src="Screenshots/chats-screen.jpeg" width="180px" height="400px"> 
-<img align="left" src="Screenshots/chatroom-screen.jpeg" width="185px" height="400px"> 
+<img align="left" src="Screenshots/app_banner.jpg"> 
 </div>
 
 <br>
