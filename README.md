@@ -20,7 +20,14 @@ Decrypta is a fully functional one-to-one messaging app that helps soldiers to c
 
 ## Installation
 
+You can download or clone repository to your pc .then import or add source code into your project 
+* How to Clone or download : <https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html#download-vs-clone>
+* How to import project : <https://www.tvisha.com/blog/how-to-import-a-project-in-android-studio>
+
 ## Running the sample app
+
+To run this app first you need migrate the project in to firebase console .then paste google-service.json file into project folder (project-name/app)
+* How to connect with firebase : <http://alphatech.technology/Howto-Entry-srk/Google-Services-Json-bek/>
 
 ## Technology used
 
