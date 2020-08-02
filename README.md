@@ -48,7 +48,7 @@ after that build and run
 
 ## More about this app
 
-- This system also have an admin app that monitorize illegal activities in system  
+This is system that also have an <b>Admin</b> app written in <b>vue js<b> that monitorize <b>Illegal activities</b> in communication channels. This means <b>not monitorize messages<b> that send by user. If someone try to share <b>sensitive infromation<b> with a civllian or a spy , at that instant app will send a <b>Illigal activity alert<b> to Admin app with sender,receiver details and geo cordinates.Decrypta also not allowed users take screen shots chats and also can't download images into devices .it will be available cloud
 
 ## Contributors
 
