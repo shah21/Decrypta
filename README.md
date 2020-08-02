@@ -3,7 +3,7 @@
 **Version 1.0.0**
 
 <div>
-<img align="left" src="Screenshots/app_banner.jpg"> 
+<img align="left" src="Screenshots/app_banner.jpg" width="1000px"> 
 </div>
 
 <br>
