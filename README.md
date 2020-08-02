@@ -52,7 +52,7 @@ after that build and run
 
 ## Contributors
 
-- Muhsin shah (<muhsinshah21@gmail.com>)
+- Muhsin Shah (<muhsinshah21@gmail.com>)
 
 ## License & Copyright 
 > Copyright (C) 2020 Muhsin Shah.  
