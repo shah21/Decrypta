@@ -3,9 +3,9 @@
 **Version 1.0.0**
 
 <div>
-<img align="left" src="Screenshots/Welcome-screen.jpeg" width="250px" height="400px"> 
-<img align="left" src="Screenshots/login-screen.jpeg" width="250px" height="400px"> 
-<img align="left" src="Screenshots/home-screen.jpeg" width="250px" height="400px"> 
+<img align="left" src="Screenshots/Welcome-screen.jpeg" width="300px" height="400px"> 
+<img align="left" src="Screenshots/login-screen.jpeg" width="300px" height="400px"> 
+<img align="left" src="Screenshots/home-screen.jpeg" width="300px" height="400px"> 
 <img align="left" src="Screenshots/chats-screen.jpeg" width="200px" height="400px"> 
 <img align="left" src="Screenshots/chatroom-screen.jpeg" width="200px" height="400px"> 
 </div>
