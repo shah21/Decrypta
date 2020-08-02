@@ -10,18 +10,23 @@ Decrypta is a fully functional one-to-one messaging app that helps soldiers to c
 
 1.[Installation](#Installation)
 
-1. This app created with native developement technologies ( JAVA, XML )
-2. Backend supported by firebase 
-3. This system also have an admin app that monitorize illegal activities in system 
+2.[Running the sample app](#Running-the-sample-app)
 
-- To test this app u need to configure your project in firebase console and paste that .json file in to android source file 
+3.[Technology used](#Technology-used)
 
-* This app can only give permission to registered users(soldiers) . So that first you need to add a special user number and details in database 
-* A major thing is a civilian cannot enter to this system without he/she must contain any one soldiers connections list
+4.[More about this app](#More-about-this-app)
+
+5.[Contributors](#Contributors)
+
+6.[License & Copyright](#License-&-Copyright)
 
 ---
  
-# Installation
+## Installation
+
+---
+
+## Running the sample app
 
 ---
 
@@ -29,6 +34,15 @@ Decrypta is a fully functional one-to-one messaging app that helps soldiers to c
 
 - Frontend : Java , xml
 - Backend : Firebase
+
+---
+
+## More about this app
+
+- This system also have an admin app that monitorize illegal activities in system 
+- To test this app u need to configure your project in firebase console and paste that .json file in to android source file 
+- This app can only give permission to registered users(soldiers) . So that first you need to add a special user number and details in database 
+- A major thing is a civilian cannot enter to this system without he/she must contain any one soldiers connections list
 
 ---
 
