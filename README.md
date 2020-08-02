@@ -7,7 +7,7 @@
 <img align="left" src="Screenshots/login-screen.jpeg" width="180px" height="400px"> 
 <img align="left" src="Screenshots/home-screen.jpeg" width="180px" height="400px"> 
 <img align="left" src="Screenshots/chats-screen.jpeg" width="180px" height="400px"> 
-<img align="left" src="Screenshots/chatroom-screen.jpeg" width="180px" height="400px"> 
+<img align="left" src="Screenshots/chatroom-screen.jpeg" width="185px" height="400px"> 
 </div>
 
 <div>
