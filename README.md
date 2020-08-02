@@ -32,12 +32,12 @@ You can download or clone repository to your pc .then import or add source code 
 
 ## Running the sample app
 
-1. To run this app first you need migrate the project in to firebase console .then paste google-service.json file into project folder (project-name/app) 
+ *To run this app first you need migrate the project in to firebase console .then paste google-service.json file into project folder (project-name/app) 
 after that build and run  
  * How to connect with firebase : <http://alphatech.technology/Howto-Entry-srk/Google-Services-Json-bek/>
  
 **NOTE**
-2. This app can only give permission to registered users(soldiers) . So that first you need to add a special user number and details in database
+ *. This app can only give permission to registered users(soldiers) . So that first you need to add a special user number and details in database
    * On other end if you want register as civilian you need to add civilian phone number to soldier connections list
 
 ## Technology used
