@@ -36,8 +36,9 @@ You can download or clone repository to your pc .then import or add source code 
 after that build and run  
  * How to connect with firebase : <http://alphatech.technology/Howto-Entry-srk/Google-Services-Json-bek/>
  
-**NOTE**
- *. This app can only give permission to registered users(soldiers) . So that first you need to add a special user number and details in database
+**NOTE** 
+
+   * This app can only give permission to registered users(soldiers) . So that first you need to add a special user number and details in database
    * On other end if you want register as civilian you need to add civilian phone number to soldier connections list
 
 ## Technology used
