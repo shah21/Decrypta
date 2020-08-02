@@ -8,7 +8,7 @@
 <img align="left" src="Screenshots/home-screen.jpeg" width="200px" height="400px"> 
 </div>
 
-<br/>
+&nbsp;
 
 Decrypta is a fully functional one-to-one messaging app that helps soldiers to communicate each other and also chat with their families and friends . Its a dedicated commication system for people who works in nation's secuirity areas . This simple app enables users to send text and multimedia messages like images . 
 
