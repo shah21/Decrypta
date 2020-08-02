@@ -35,7 +35,6 @@ Decrypta is a fully functional one-to-one messaging app that helps soldiers to c
 ---
 
 ## License & Copyright 
-> Copyright (C) 2020 Shah.  
-> Licensed under the [GPL-3.0](https://www.gnu.org/licenses/gpl.html) license.  
+> Copyright (C) 2020 Muhsin Shah.  
+> Licensed under the [MIT] license.  
 
-@ Muhsin Shah , Curiocodes Android Developer 
