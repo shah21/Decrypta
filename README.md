@@ -36,7 +36,7 @@ Decrypta is a fully functional one-to-one messaging app that helps soldiers to c
 
 ## Contributors
 
-- Muhsin shah <muhsinshah21@gmail.com>
+- Muhsin shah (<muhsinshah21@gmail.com>)
 
 ## License & Copyright 
 > Copyright (C) 2020 Muhsin Shah.  
