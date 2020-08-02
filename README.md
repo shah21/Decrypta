@@ -6,14 +6,12 @@
 <img align="left" src="Screenshots/Welcome-screen.jpeg" width="200px" height="400px"> 
 <img align="left" src="Screenshots/login-screen.jpeg" width="200px" height="400px"> 
 <img align="left" src="Screenshots/home-screen.jpeg" width="200px" height="400px"> 
- <br/>
 <img align="left" src="Screenshots/chats-screen.jpeg" width="200px" height="400px"> 
- <br/>
 <img align="left" src="Screenshots/chatroom-screen.jpeg" width="200px" height="400px"> 
 </div>
 
 <div>
-Decrypta is a fully functional one-to-one messaging app that helps soldiers to communicate each other and also chat with their families and friends . Its a dedicated commication system for people who works in nation's secuirity areas . This simple app enables users to send text and multimedia messages like images . </div>
+Decrypta is a fully functional <b>one-to-one<b> messaging app that helps <b>soldiers<b> to communicate each other and also chat with their families and friends . Its a dedicated commication system for people who works in <b>nation's secuirity<b> areas . This simple app enables users to send <b>text<b> and <b>multimedia<b> messages like images. </div>
 
 # Table of content 
 
