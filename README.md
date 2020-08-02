@@ -32,7 +32,7 @@ You can download or clone repository to your pc .then import or add source code 
 
 ## Running the sample app
 
- *To run this app first you need migrate the project in to firebase console .then paste google-service.json file into project folder (project-name/app) 
+ * To run this app first you need migrate the project in to firebase console .then paste google-service.json file into project folder (project-name/app) 
 after that build and run  
  * How to connect with firebase : <http://alphatech.technology/Howto-Entry-srk/Google-Services-Json-bek/>
  
