@@ -8,7 +8,7 @@
 
 <br>
 
-Decrypta is a fully functional <b>one-to-one</b> messaging app that helps <b>Soldiers</b> to communicate each other and also chat with their families and friends . Its a dedicated commication system for people who works in <b>Nation's secuirity</b> areas . This simple app enables users to send <b>Text</b> and <b>Multimedia</b> messages like images.
+Decrypta is a fully functional <b>one-to-one</b> messaging app that helps <b>Soldiers</b> to communicate each other and also to chat with their families and friends . Its a dedicated commication system for people who works in <b>Nation's secuirity</b> fields. This simple app enable users to send <b>Text</b> and <b>Multimedia</b> messages like images.
 
 # Table of content 
 
@@ -26,20 +26,19 @@ Decrypta is a fully functional <b>one-to-one</b> messaging app that helps <b>Sol
 
 ## Installation
 
-You can download or clone repository to your PC .then <b>Import</b> or <b>Add</b> source code into your project 
+You can download or clone repository to your PC. Then <b>Import</b> or <b>Add</b> source code into your project.
 * How to Clone or download : <https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html#dhttps://github.com/MasayukiSuda/GPUVideo-androidownload-vs-clone>
 * How to Import project : <https://www.tvisha.com/blog/how-to-import-a-project-in-android-studio>
 
 ## Running the sample app
 
- * To run this app first you need migrate the project in to <b><i>Firebase console</i></b> .then paste <b><i>google-service.json</i></b> file into project folder (project-name/app) 
-after that build and run  
+ * To run this app, first you need to connect the project into <b><i>Firebase console</i></b>. Then paste <b><i>google-service.json</i></b> file into the project folder (project-name/app) after that build and run the project. 
  * How to connect with firebase : <http://alphatech.technology/Howto-Entry-srk/Google-Services-Json-bek/>
  
 **IMPORTANT** 
 
-   * This app can only use registered users(soldiers) . So that first you need to add that a special user number and details into database
-   * On other end if you want register as civilian you need to add civilian phone number to soldier connections list
+   * Only registered users(soldiers) are allowed to use this app. So that first you need to add a special user number and details into database.
+   * On the other end, if you want to register as a civilian you need to add civilian phone number to soldier connections list.
 
 ## Technology used
 
@@ -48,7 +47,7 @@ after that build and run
 
 ## More about this app
 
-This is system that also have an <b>Admin</b> app written in <b>vue js</b> that monitorize <b>Illegal activities</b> in communication channels. This means <b>not monitorize messages</b> that send by user. If someone try to share <b>sensitive infromation</b> with a civllian or a spy , at that instant app will send a <b>Illigal activity alert</b> to Admin app with sender,receiver details and geo cordinates.Decrypta also not allowed users take screen shots chats and also can't download images into devices .it will be available cloud
+This  system also have an <b>Admin</b> app written in <b>vue js</b> to monitorize <b>Illegal activities</b> occur in communication channels. ie If someone tries to share <b>sensitive infromation</b> or to spy with a civllian, at that instant, app will send a <b>Illigal activity alert</b> to Admin app with sender,receiver details and geo cordinates.Decrypta also not allow users to take chat screenshots  and also can't download images into devices. It will be available on cloud.
 
 ## Contributors
 
